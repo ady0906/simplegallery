@@ -1,0 +1,28 @@
+.about-page-wrapper {
+  padding: 45px 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.about-page-wrapper p {
+  width: calc(100% - 270px);
+  padding-left: 20px;
+}
+
+.about-page-wrapper h2 {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.about-page-image {
+  width: 25%;
+  max-width: 250px;
+}
+
+.about-page-image img {
+  width: 100%;
+  height: auto;
+}
