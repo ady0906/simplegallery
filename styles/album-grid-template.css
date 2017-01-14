@@ -1,0 +1,34 @@
+.grid-album-container {
+  list-style-type: none;
+  padding: 80px 0 0;
+  margin: 0 auto;
+}
+
+.grid-album-item {
+  border-right: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0 4px 15px -5px #555;
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.grid-album-item h2 {
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+}
+
+@media(max-width: 800px) {
+  .grid-album-item { width: 150px; }
+}
+
+.grid-album-item img {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+
+.grid-album-item img:hover {
+   opacity: 0.8;
+}
+ 

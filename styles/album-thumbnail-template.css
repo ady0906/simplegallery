@@ -1,0 +1,14 @@
+.thumbnail-album-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 45px;
+  width: calc(100% - 20px);
+}
+
+.thumbnail-album-container img {
+  height: 250px;
+  margin: 0 10px 10px 0;
+  width: auto;
+}
